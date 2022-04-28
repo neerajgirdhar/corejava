@@ -10,6 +10,7 @@ public class ThreadManager {
 
     public static void main(String args[]){
         ThreadManager thM = new ThreadManager();
+        System.out.println(Runtime.getRuntime().availableProcessors());
         thM.initiate();
         thM.shutdown();
 System.out.println("Available Processor "+Runtime.getRuntime().availableProcessors());
